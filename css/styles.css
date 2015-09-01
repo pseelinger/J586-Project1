@@ -62,11 +62,21 @@ h1{
     font-size: .75em;
     margin-bottom: 0px;
 }
-.task-rec li{
-    border-bottom: 1px thin gray;
+.box-bottom{
+    border-bottom: 1px solid gray;
+}
+.box-bottom li{
+    border-bottom: 1px solid gray;
 }
 .footer{
     display: inline-block;
+}
+.box-bottom-right{
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.box-right{
+    border-right: 1px solid gray;
 }
 #dashboard{
     background-color:#33CC66;
