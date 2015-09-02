@@ -24,7 +24,7 @@
     <!-- navigation bar -->
     <div class="row" id="nav">
         <div class="container">
-            <p class="white">
+            <p class="white" id="mini">
                 MINI of Raleigh
             </p>
             <div class="help"></div>
@@ -62,73 +62,76 @@
         <div class="row">
             <div class="col-md-3 box-bottom-right">
                 <p id="orange">
-                    Announcements
+                    <b>ANNOUNCEMENTS</b>
                 </p>
             </div>
             <div class="col-md-8 box-bottom-right">
-                <p>filler text</p>
+                <p id="latin-filler">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
             </div>
-            <div class="col-md-1 box-bottom-right">
+            <div class="col-md-1 box-bottom" id="orange-arrows">
                 <a href=#><div class="orange-arrow-left"></div></a>
                 <a href=#><div class="orange-arrow-right"></div></a>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
-                <div class="box-bottom-right">
+            <div class="col-md-4 box-right">
                 <h1>
                    Tasks 
                 </h1>
-                <ul class="box-bottom">
-                <li><a href= # class="list-link"><div class="list-number">1</div>Welcome Contacts</a></li>
-                <li><a href= # class="list-link"><div class="list-number">2</div>Provide Responses</a></li>
-                <li><a href= # class="list-link"><div class="list-number">3</div>Review Activity</a></li>
-                <li><a href= # class="list-link"><div class="list-number">4</div>Reach Out</a></li>
+                <ul class="task-rec">
+                <li class="box-bottom" id="tasks"><a href= # class="list-link"><div class="list-number">1</div>Welcome Contacts<div class="person-box"><div class="person-blue"></div><div class="person-gray"></div><div class="person-number">32</div></div></a></li>
+                <li class="box-bottom" id="tasks"><a href= # class="list-link"><div class="list-number">2</div>Provide Responses<div class="person-box"><div class="person-blue"></div><div class="person-gray"></div><div class="person-number">36</div></div></a></li>
+                <li class="box-bottom" id="tasks"><a href= # class="list-link"><div class="list-number">3</div>Review Activity<div class="person-box"><div class="person-blue"></div><div class="person-gray"></div><div class="person-number">36</div></div></a></li>
+                <li class="box-bottom" id="tasks"><a href= # class="list-link"><div class="list-number">4</div>Reach Out<div class="person-box"><div class="person-blue"></div><div class="person-gray"></div><div class="person-number">3</div></div></a></li>
                 </ul>
-                </div>
-                <div class="box-bottom-right">
                 <h1>
                     Recommendations
                 </h1>
-                <ul class="box-bottom">  
+                <ul class="task-rec" id="reco">  
                 <li><a href= #><div class="articles"></div><div class="recs"><p class="small-recs">Article</p><p>7 Steps to getting more fans</p></div></a></li>
                 <li><a href= #><div class="articles"></div><div class="recs"><p class="small-recs">Article</p><p>Increase traction with more interactions</p></div></a></li>
                 <li><a href= #><div class="check-green"></div><div class="recs"><p class="small-recs">Checklist</p><p>Creating a Promotion</p></div></a></li>
                 <li><a href= #><div class="lightbulb"></div><div class="recs"><p class="small-recs">Tip</p><p>Share More</p></div></a></li>
                 </ul>
-                </div>
             </div>
             <!-- graphs -->
             <div class="col-md-8">
                 <div class="row">
-                    <div class="col-md-10">
+                    <div class="col-md-10 col-sm-6 col-xs-6">
+                    <div class="box-bottom">
                         <h1>
                             Analytics
                         </h1>
-                        <div class="box-right">
+                        <div class="box-right" id="bar-chart">
                         <p>Activity</p>
                         <div class="bar-graph"></div>
                         </div>
-                        <div class="box-bottom">
                         <ul class="menu-horiz">
-                            <li><label><input type="checkbox" name="fb">Facebook</label></li>
-                            <li><label><input type="checkbox" name="tw">Twitter</label></li>
-                            <li><label><input type="checkbox" name="fs">Foursquare</label></li>
-                            <li><label><input type="checkbox" name="gp">Google+</label></li>
+                            <li id="social"><label><input type="checkbox" name="fb">Facebook</label></li>
+                            <li id="social"><label><input type="checkbox" name="tw">Twitter</label></li>
+                            <li id="social"><label><input type="checkbox" name="fs">Foursquare</label></li>
+                            <li id="social"><label><input type="checkbox" name="gp">Google+</label></li>
                         </ul>
-                        </div>
-                          <div class="contacts"></div><div class="customers"></div>  
                     </div>
-                    <div class="col-md-2" id="pie-graphs">
-                        <p>Channels</p>
+                         <div class="contacts"></div><div class="customers"></div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" id="pie-graphs">
+                        <p>CHANNELS</p>
                         <div class="channels-graph"></div>
-                        <p>Referrals</p>
+                        <p>REFERRALS</p>
                         <div class="referrals-graph"></div>
                     </div>
                 </div>
-                <!-- slider -->
-                <div class="row">
-                    
+                  <!-- slider -->
+                <div class="row" id="slider">
+                    <div class="slider-arrows-left"><a href=#><div class="orange-arrow-left-big"></div></a></div>
+                    <div class="slider-arrows-right"><a href=#><div class="orange-arrow-right-big"></div></a></div>
+                    <p>
+                        DID YOU KNOW?</br>
+                        Maecenas sed diam eget risus varius blandit sit amet non magna.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Etiam porta sem malesuada magna mollis euismod.
+                    </p>
                 </div>
             </div>
         </div>
@@ -136,7 +139,7 @@
     
     <!-- ads -->
     <div class="container" id="ads">
-        <div class="row">
+        <div class="row col-sm-12 col-xs-12">
             <div class="col-md-4">
                 <div class="ad-one"></div>
             </div>
@@ -149,16 +152,17 @@
         </div>
     </div>
     <!-- footer -->
-    <div class="row">
+    <div class="row box-top">
         <div class="container">
-        <div class="col-md-4">
-            <a href= #>Tutorials</a> |<a href=#>Support</a> |<a href=#>Blog</a> 
+        <div class="col-md-4 footer box-right">
+            <a href= #>Tutorials</a> &nbsp|&nbsp<a href=#>Support</a> &nbsp |&nbsp<a href=#>Blog</a> 
         </div>
         <div class="col-md-4">
-            <a href=#>Ariel Winter</a> <p class="footer">likes your</p> <a href=#>Win a Cooper Sweepstakes</a> <p class="footer">Promotion</p> 
+            <a href=# class="footer">Ariel Winter</a> <p class="footer">likes your</p> <a href=# class="footer">Win a Cooper Sweepstakes</a> <p class="footer">Promotion</p> 
         </div>
         <div class="col-md-4">
-                
+                <a href= #><div class="arrow-blue-up"></div></a>
+                <div class="car-pic"></div>
         </div>
     </div>
     </div>    

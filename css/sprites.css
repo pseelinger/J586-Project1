@@ -40,14 +40,16 @@
 
 .search{
 	background-position: -27px -49px ;
-	width: 23px;
-	height: 22px;
+	width: 25px;
+	height: 25px;
+	margin-top: 10px;
 }
 
 .referrals-graph{
 	background-position: 0 -288px ;
 	width: 80px;
 	height: 80px;
+	margin: 0 auto;
 }
 
 .promotions-background{
@@ -72,6 +74,12 @@
 	background-position: -61px -82px ;
 	width: 20px;
 	height: 20px;
+	display: inline-block;
+	float: left;
+	padding-left: 2px;
+}
+.person-blue, .person-gray{
+		margin-top: 5px;
 }
 
 .page-creator-background{
@@ -90,6 +98,8 @@
 	background-position: -33px -82px ;
 	width: 11px;
 	height: 18px;
+	margin-top: 12px;
+	margin-left: 10px;
 }
 
 .orange-arrow-right{
@@ -102,6 +112,8 @@
 	background-position: -32px -109px ;
 	width: 11px;
 	height: 18px;
+	margin-top: 12px;
+	margin-left: 10px;
 }
 
 .orange-arrow-left{
@@ -172,9 +184,10 @@
 }
 
 .dashboard-background:hover{
-	background-position: -563px 0;
+	background-position: -562.5px 0;
 	width: 58px;
 	height: 58px;
+	margin-bottom: 15px;
 }
 
 .customers-background{
@@ -184,21 +197,24 @@
 }
 
 .customers-background:hover{
-	background-position: -91px -161px ;
+	background-position: -90px -161px ;
 	width: 62px;
 	height: 42px;
+	margin-bottom: 23px;
 }
 
 .customers{
 	background-position: -180px -88px ;
 	width: 240px;
 	height: 223px;
+    margin: 0 auto;
 }
 
 .contacts{
 	background-position: -437px -90px ;
 	width: 240px;
 	height: 223px;
+    margin: 0 auto;
 }
 
 .check-orange{
@@ -218,19 +234,21 @@
 	background-position: 0 -379px ;
 	width: 80px;
 	height: 80px;
+    margin: 0 auto;
 }
 
 .car-pic{
 	background-position: 0 -235px ;
 	width: 40px;
 	height: 40px;
+	display: inline-block;
+	margin-left: 20px;
 }
 
 .bar-graph{
 	background-position: -555px -464px ;
 	width: 420px;
 	height: 187px;
-	border-bottom: 1px thin gray;
 }
 
 .twitter{
@@ -243,6 +261,8 @@
 	background-position: -92px -220px ;
 	width: 14px;
 	height: 9px;
+	margin-left: 10px;
+	display: inline-bloxk;
 }
 
 .articles{
@@ -268,9 +288,7 @@
 	background-position: -691px 0;
 	width: 284px;
 	height: 174px;
-	margin-bottom: 50px;
-	margin-top: -10px;
-	padding-top: 0px;
+	margin-bottom: 20px;
 }
 
 .ad-three{
@@ -298,6 +316,4 @@
 	display: inline-block;
 	margin-bottom: 5px;
 }
-.channels-graph, .referrals-graph{
-	margin-top: 30px;
-}
+
