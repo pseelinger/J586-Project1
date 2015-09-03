@@ -1,3 +1,24 @@
+input[type=checkbox]{
+    opacity: 0;
+}
+.checking{
+    background-color: #cccccc;
+   width: 15px;
+   height: 15px;
+   line-height: 10px;
+   color: white;
+   text-align: center;
+   border: 2px double gray;
+   display: inline-block;
+}
+input[type=checkbox]:checked ~ .checking{
+    background: url(../img/sprites.png) no-repeat;
+    background-position: -31px -197px;
+    width: 22px;
+	height: 21px;
+    background-color: white;
+    border: 1px solid #cccccc;
+}
 form{
     float: right;
     background-color: white;
@@ -106,10 +127,15 @@ h1{
 .box-right{
     border-right: 1px solid #cccccc;
 }
-.box-top{
-    border-top: 1px solid #cccccc;
-    background-color: gray;
+.box-shadow-top{
+    border-top: 3px ridge #cccccc;
     margin-top: 20px;
+}
+.box-shadow-top a{
+    color: #2498f4;
+}
+.box-shadow-top a:hover{
+    text-decoration: none;
 }
 .task-rec{
     padding-left: 0px;
@@ -129,7 +155,7 @@ h1{
 }
 .person-box{
     float: right;
-    border: 1px solid gray;
+    border: 1px solid #cccccc;
     padding: 2px;
     min-width: 60px;
 }
